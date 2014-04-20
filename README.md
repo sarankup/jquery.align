@@ -25,8 +25,9 @@ This 1KB JavaScript used jquery, and align you contents respective to any charac
 Demo
 ----
 
-Here goes full page demo <a href='http://jsfiddle.net/sarankup/6QHat/2/embedded/result/'>JSFiddle full page mode</a>
-Here goes full page demo <a href='http://jsfiddle.net/sarankup/6QHat/2/'>JSFiddle code page mode</a>
+Here goes full page demo <a href='http://jsfiddle.net/sarankup/6QHat/2/embedded/result/'>JSFiddle full page mode</a>.
+
+Here goes full page demo <a href='http://jsfiddle.net/sarankup/6QHat/2/'>JSFiddle code page mode</a>.
 
 
 Setup
