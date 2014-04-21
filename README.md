@@ -25,9 +25,9 @@ This 1KB JavaScript used jquery, and align you contents respective to any charac
 Demo
 ----
 
-Here goes full page demo <a href='http://jsfiddle.net/sarankup/6QHat/2/embedded/result/'>JSFiddle full page mode</a>.
+Demo demo <a href='http://jsfiddle.net/sarankup/6QHat/7/embedded/result/'>JSFiddle full page mode</a>.
 
-Here goes full page demo <a href='http://jsfiddle.net/sarankup/6QHat/2/'>JSFiddle code page mode</a>.
+Demo <a href='http://jsfiddle.net/sarankup/6QHat/7/'>JSFiddle code page mode</a>.
 
 
 Setup
@@ -35,5 +35,23 @@ Setup
 
 Import jquery script from any available CDN. In my example, I use Google CDN, as I like Google.
 
-<pre> &lt;script src="http://code.jquery.com/jquery-1.8.2.min.js"&gtl;&lt;/script&gt;</pre>
+<pre> &lt;script src="http://code.jquery.com/jquery-1.8.2.min.js"&gt;&lt;/script&gt;</pre>
 <pre>&lt;script src="jquery.align.js"&gt;&lt;/script&gt;</pre>
+
+
+How it works
+------------
+
+As HTML5 offers user defined attributes for elements in prefix with data-foo, I use data-grid in my example. Of course, you can use any attributes like data-*. For those to be aligned horizontally, insert &lt;span data-grid='a'&gt;. In result, wherever data-grid='a' used will align horizontally. Please make sure that the attribut value vary for each horizontal alignments. Please refer the index.html document.
+
+
+Dependancy
+----------
+
+Jquery used as dependancy.
+
+
+To Do
+------
+
+As this uses Jquery, using this for ePub may be heavier. Plain JavaScript to be written for ePub implementation.
