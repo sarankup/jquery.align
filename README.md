@@ -42,7 +42,7 @@ Import jquery script from any available CDN. In my example, I use Google CDN, as
 How it works
 ------------
 
-As HTML5 offers user defined attributes for elements in prefix with <pre>data-foo<pre>, I use data-grid in my example. Of course, you can use any attributes like <pre>data-*.</pre> For those to be aligned horizontally, insert <pre>&lt;span data-grid='a'&gt;</pre>. In result, wherever data-grid='a' used will align horizontally. Please make sure that the attribut value vary for each horizontal alignments. Please refer the index.html document.
+As HTML5 offers user defined attributes for elements in prefix with <font face="courier">data-foo</font>, I use <font face="courier">data-grid</font> in my example. Of course, you can use any attributes like <font face="courier">data-*.</font> For those to be aligned horizontally, insert <font face="courier">&lt;span data-grid='a'&gt;</font>. In result, wherever data-grid='a' used will align horizontally. Please make sure that the attribut value vary for each horizontal alignments. Please refer the index.html document.
 
 
 Dependancy
