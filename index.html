@@ -7,13 +7,14 @@
 	<style>
 	body{margin:50px;}
 	p{margin-top:0em;margin-bottom:0em;line-height:1.0;}
-	h1{font-size:100%;background:gray;padding:5px;}
-	h2{font-size:70%;padding:5px;border-bottom:1px solid red;}
+	h1{font-size:130%;background:red;color:white;padding:5px;font-family:Tahoma;}
+	h2{font-size:100%;margin-top:20px;padding:5px;border-bottom:2px solid orange;border-right:2px solid orange;font-family:Tahoma;}
 </style>
 </head> 
 <body>
 
-<h1>non-breaking space (&amp;#x00A1;) used when typeset</h1>
+<h1>Preserved non-breaking space does not work when font changes</h1>
+<h2>non-breaking space (&amp;#x00A1;) used when typeset with Times font</h2>
 <div style='font-family:Times;'>
 <p>This is some</p>
 <p>&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;text I would</p>
@@ -22,7 +23,7 @@
 <p>&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;HTML</p>
 </div>
 
-<h1>The same non-breaking space (&amp;#x00A1;) does not reflect in HTML online when different font used</h1>
+<h2>The same non-breaking space (&amp;#x00A1;) does not align the same in HTML online when different font used, ie. when other than times font used</h2>
 <div style='font-family:Arial;'>
 <p>This is some</p>
 <p>&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;&#x00A0;text I would</p>
@@ -59,6 +60,21 @@
 <p><span data-grid='a8'/>format and it nicely allows for several lines written with automatic lines breaks as well, as we can see here. How can I do this with<span data-grid='a9'/></p>
 <p><span data-grid='a9'/>HTML</p>
 </div>
+
+<h1>Other than left indentation formats too</h1>
+<h2>Table like effect</h2>
+<div style='font-family:Georgia;'>
+<p>This is some<span data-grid='a10'/>indent text</p>
+<p>This<span data-grid='a10'/>aligns with above indent text</p>
+<p>This last line might be longer <span data-grid='a10'/>even it aligns</p>
+</div>
+
+<h2>Some other sort of align</h2>
+<div style='font-family:Georgia;'>
+<p>A&#x2003;<span data-grid='a11'/>&#x2003;&#x2003;&#x2003;<span data-grid='a12'/>B&#x2003;&#x2003;&#x2003;C&#x2003;<span data-grid='a13'/>&#x2003;D</p>
+<p><span data-grid='a11'/>a<sub>1</sub> <span data-grid='a12'/>a<sub>2</sub> <span data-grid='a13'/>a<sub>3</sub></p>
+</div>
+
 
 </body>
 </html>
